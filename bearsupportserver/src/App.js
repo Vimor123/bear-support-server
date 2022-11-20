@@ -1,18 +1,33 @@
 import './App.css';
-import Bear from './components/Bear';
-
+import React from "react";
+import bearDataJSON from "./assets/bearData.json";
 
 function App() {
-  return (
-      <div>
-        <h1>
-          Hello
-        </h1>
+
+    function chooseNewPic() {
+        const bearList = bearDataJSON["bears"];
+        return bearList[Math.floor(Math.random() * bearList.length)];
+    }
+
+    const [bearPic, setBearPic] = React.useState(chooseNewPic);
+
+    function askforNewPic() {
+        setBearPic(chooseNewPic);
+    }
+
+    return (
         <div>
-          <Bear/>
+            <h1>
+                Hello
+            </h1>
+            <div>
+                <img src={"/bears/" + bearPic} alt={"sexy"}></img>
+            </div>
+            <div>
+                <button onClick={askforNewPic}>NEW BEAR</button>
+            </div>
         </div>
-      </div>
-  );
+    );
 }
 
 export default App;
