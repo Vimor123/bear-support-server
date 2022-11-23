@@ -1,1 +1,25 @@
+.content {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    size: "100%";
+    background-image: linear-gradient(#623804, #D56300, #FEDD63, #FEE6B8);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.head-div {
+    margin: 40px;
+}
+
+.title {
+    color: #FEDD63;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.bear-image {
+    height: 700px;
+}
