@@ -25,7 +25,7 @@ function App() {
                 <img className={"bear-image"} src={"/bears/" + bearPic} alt={"sexy"}></img>
             </div>
             <div>
-                <button onClick={askforNewPic}>NEW BEAR</button>
+                <button className={"bear-button"} onClick={askforNewPic}>Next Bear</button>
             </div>
         </div>
     );

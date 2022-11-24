@@ -3,23 +3,60 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    size: "100%";
-    background-image: linear-gradient(#623804, #D56300, #FEDD63, #FEE6B8);
+    height: auto;
+    min-height: 100% !important;
+    background-image: linear-gradient(#D56300, #FEDD63, #FEE6B8);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .head-div {
-    margin: 40px;
+    margin: 30px;
+    color: #623804;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
 .title {
-    color: #FEDD63;
+    color: #D56300;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #623804;
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 50px;
     margin: 10px;
 }
 
+.bear-image-container {
+    background-image: linear-gradient(#623804, #D56300, #D88814);
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+}
+
 .bear-image {
+    display: block;
     height: 700px;
+    border: 15px solid transparent;
+    border-radius: 30px;
+}
+
+.bear-button {
+    color: #623804;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #F2C27C;
+    border: 5px solid;
+    border-radius: 30px;
+    padding: 2px 8px;
+    margin: 10px;
+}
+
+.bear-button:active {
+    background-color: #FEDD63;
+}
+
+.bear-button:hover {
+    color: #D88814;
+    transition: 0.1s;
 }
