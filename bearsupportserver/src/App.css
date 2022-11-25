@@ -17,7 +17,7 @@
 }
 
 .title {
-    color: #D56300;
+    color: #D88814;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #623804;
     font-family: Brush Script MT, Brush Script Std, cursive;
@@ -52,6 +52,10 @@
     margin: 10px;
 }
 
+.bear-button-container {
+    margin-bottom: 20px;
+}
+
 .bear-button:active {
     background-color: #FEDD63;
 }
@@ -59,4 +63,12 @@
 .bear-button:hover {
     color: #D88814;
     transition: 0.1s;
+}
+
+.footer {
+    background-image: linear-gradient(#55390F, #623804);
+    color: #FFEFD7;
+    width: 100%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 12px;
 }

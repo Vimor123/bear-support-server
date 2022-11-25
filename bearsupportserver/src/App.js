@@ -24,9 +24,12 @@ function App() {
             <div className={"bear-image-container"}>
                 <img className={"bear-image"} src={"/bears/" + bearPic} alt={"sexy"}></img>
             </div>
-            <div>
-                <button className={"bear-button"} onClick={askforNewPic}>Next Bear</button>
+            <div className={"bear-button-container"}>
+                <button className={"bear-button"} onClick={askforNewPic}> Next Bear </button>
             </div>
+            <footer className={"footer"}>
+                <p> Made with love and passion </p>
+            </footer>
         </div>
     );
 }
