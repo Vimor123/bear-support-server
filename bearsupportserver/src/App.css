@@ -1,4 +1,5 @@
 .content {
+    font-family: Brush Script MT, Brush Script Std, cursive;
     align-items: center;
     text-align: center;
     display: flex;
@@ -11,18 +12,62 @@
 }
 
 .head-div {
+    font-size: 18px;
     margin: 30px;
     color: #623804;
-    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
 .title {
     color: #D88814;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #623804;
-    font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 50px;
     margin: 10px;
+}
+
+.description-box {
+    display: flex;
+    flex-direction: column;
+    color: #623804;
+    font-size: 16px;
+    margin: 25px;
+    text-align: start;
+}
+
+.long-live-the-bears {
+    align-self: center;
+    margin: 10px;
+    font-size: 23px;
+}
+
+.dark-letter {
+    color: #55390F;
+}
+
+.light-letter {
+    color: #D56300;
+}
+
+.bear-flag-image {
+    align-self: center;
+    margin: 20px;
+    width: 300px;
+}
+
+.heart-image {
+    width: 150px;
+}
+
+.ripple-gif {
+    align-self: center;
+    width: 300px;
+}
+
+.middle-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .bear-image-container {
